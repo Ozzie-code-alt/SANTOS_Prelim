@@ -256,7 +256,12 @@ namespace SANTOS_Prelim
               cmddD.Parameters.AddWithValue("@user", WelcomtxtUsername.Text);*/
         }
 
-       
+        private void TXTWElcomEployeeType_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
 
         /* private void btnWelcomeCheck_Click(object sender, EventArgs e)
          {

@@ -61,6 +61,8 @@ namespace SANTOS_Prelim
             DB1.Fill(DS1); //determine the data set
             DT1 = DS1.Tables[0]; //which row from db
 
+
+
            dgvMemberlist.DataSource = DT1;
             TXTHOST.DataSource = DT1;
             TXTHOST.DisplayMember = "Username";// can display any member u want
@@ -371,6 +373,16 @@ namespace SANTOS_Prelim
         }
 
         private void AdminAmountTxtBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtOrderNum_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TXTHOST_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

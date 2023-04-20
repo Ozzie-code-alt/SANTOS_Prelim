@@ -144,7 +144,7 @@
             this.TXTWElcomEployeeType.Name = "TXTWElcomEployeeType";
             this.TXTWElcomEployeeType.Size = new System.Drawing.Size(145, 26);
             this.TXTWElcomEployeeType.TabIndex = 8;
-            
+            this.TXTWElcomEployeeType.TextChanged += new System.EventHandler(this.TXTWElcomEployeeType_TextChanged);
             // 
             // label4
             // 

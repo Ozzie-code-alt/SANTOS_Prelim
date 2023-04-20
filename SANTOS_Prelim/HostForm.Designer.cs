@@ -274,6 +274,7 @@
             this.txtOrderNum.Name = "txtOrderNum";
             this.txtOrderNum.Size = new System.Drawing.Size(192, 22);
             this.txtOrderNum.TabIndex = 52;
+            this.txtOrderNum.TextChanged += new System.EventHandler(this.txtOrderNum_TextChanged);
             // 
             // label11
             // 
@@ -439,6 +440,7 @@
             this.TXTHOST.Name = "TXTHOST";
             this.TXTHOST.Size = new System.Drawing.Size(192, 24);
             this.TXTHOST.TabIndex = 79;
+            this.TXTHOST.SelectedIndexChanged += new System.EventHandler(this.TXTHOST_SelectedIndexChanged);
             // 
             // timer1
             // 
